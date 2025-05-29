@@ -8,7 +8,7 @@ sdk_version: 5.31.0
 A machine learning-powered web app to predict the probability of COVID-19 positivity using user symptoms and environmental data.
 Deployed using Gradio on Hugging Face Spaces – fully open-source, interactive, and demo-ready!
 
-🔗 Live App: Try it here on Hugging Face Spaces 🚀
+🔗 Live App: https://huggingface.co/spaces/Nikhildev21/Covid_19_Prediction_2025
 
 📌 Features
 ✅ Real-time COVID-19 prediction with a user-friendly form interface
@@ -21,11 +21,13 @@ Risk factors (recent travel, smoker status, vaccination)
 💡 Intuitive Gradio front-end
 📦 Ready-to-deploy with Hugging Face Spaces and pip requirements
 🧠 Model Info
+
 Trained on a synthetic dataset with 20+ real-world features
 Used Random Forest Classifier for balanced accuracy and interpretability
 Model file: covid_19_predictor_2025.joblib
 Feature importance includes:
 Fever, Loss of Smell, Breathlessness, Travel History, AQI, etc.
+
 💻 Tech Stack
 Python
 Scikit-learn
@@ -38,6 +40,7 @@ git clone https://huggingface.co/spaces/Nikhildev21/Covid_19_Prediction_2025
 cd Covid_19_Prediction_2025
 pip install -r requirements.txt
 python app.py
+
 📂 Project Structure
 Covid_19_Prediction_2025/
 │
